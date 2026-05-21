@@ -1,6 +1,6 @@
-# Controllers 📋
+# Services 📋
 
-## Controllers - Business Logic Functions 🧠
+## Services - Business Logic Functions 🧠 same With Controller
 
 ### Purpose 🎯
 
@@ -8,7 +8,7 @@ This folder contains the business logic functions that handle incoming requests 
 
 ### Structure 🗂️
 
-- **Each controller file** corresponds to a specific API endpoint or resource. For example, a file might handle operations related to users, products, or orders.
+- **Each Service folder** corresponds to a specific API endpoint or resource. For example, a file might handle operations related to users, products, or orders.
 - **Functions within each controller** are responsible for:
   - **Processing requests:** Receiving data from client requests.
   - **Executing business logic:** Performing operations like querying a database or processing data.
@@ -16,7 +16,7 @@ This folder contains the business logic functions that handle incoming requests 
 
 ### Example 📦
 
-- **`userController.js`:** Handles user-related requests such as creating, updating, or deleting users.
-- **`productController.js`:** Manages product-related requests like retrieving product details or updating inventory.
+- **`userService.js`:** Handles user-related requests such as creating, updating, or deleting users.
+- **`productService.js`:** Manages product-related requests like retrieving product details or updating inventory.
 
 Feel free to explore and modify the controller files to fit your application’s needs! 🔍
