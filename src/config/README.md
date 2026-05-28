@@ -10,10 +10,10 @@ File ini mengatur konfigurasi database untuk berbagai tahap pengembangan. File i
 
 Untuk menjaga keamanan informasi sensitif seperti kredensial database, kita menggunakan variabel lingkungan (environment variables). Sebelum menjalankan aplikasi, pastikan variabel berikut sudah diatur di lingkungan Anda:
 
-- `DB_USERNAME`: Username PostgreSQL Anda 🧑‍💻
-- `DB_PASSWORD`: Password PostgreSQL Anda 🔑
-- `DB_NAME`: Nama database PostgreSQL Anda 📦
-- `DB_URL`: URL koneksi PostgreSQL yang digunakan pada lingkungan staging dan produksi 🌐
+- `DB_USERNAME`: Username Database Anda 🧑‍💻
+- `DB_PASSWORD`: Password Database Anda 🔑
+- `DB_NAME`: Nama database Database Anda 📦
+- `DB_URL`: URL koneksi Database yang digunakan pada lingkungan staging dan produksi 🌐
 
 ### Pengaturan Konfigurasi ⚙️
 
