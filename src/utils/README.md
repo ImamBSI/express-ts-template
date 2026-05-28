@@ -20,7 +20,7 @@ Folder `utils` berisi kode yang dapat digunakan kembali untuk:
 
 ### Struktur 🗂️
 
-Folder ini berisi file-file berikut:
+Folder ini biasanya berisi file-file berikut:
 
 - **`archiver.ts`**: Untuk mengarsipkan file dan direktori.
 - **`dateFormatter.ts`**: Untuk memformat tanggal dan timestamp.
