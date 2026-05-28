@@ -1,38 +1,38 @@
 # Routes 🌐
 
-## What are Routes? 🤔
+## Apa itu Route? 🤔
 
-Routes define how your API responds to different HTTP requests. They determine how the application should handle incoming requests, including which code to run and what response to send back to the client.
+Route (rute) menentukan bagaimana API Anda merespons berbagai permintaan HTTP. Route mengatur bagaimana aplikasi menangani permintaan yang masuk, kode apa yang dijalankan, dan respons apa yang dikirimkan kembali ke client.
 
-### Purpose 🎯
+### Tujuan 🎯
 
-This folder contains the route definitions for your API, which:
+Folder ini berisi definisi route untuk API Anda, yang:
 
-- **Determine Request Handling:** Specify how to process different types of requests (e.g., GET, POST, PUT, DELETE).
-- **Define Endpoints:** Set the paths for various API endpoints (e.g., `/users`, `/products`).
+- **Menentukan Penanganan Permintaan:** Menjelaskan cara memproses berbagai jenis permintaan (misal: GET, POST, PUT, DELETE).
+- **Mendefinisikan Endpoint:** Menetapkan path untuk berbagai endpoint API (misal: `/users`, `/products`).
 
-### Structure 🗂️
+### Struktur 🗂️
 
-The folder contains route files that:
+Folder ini berisi file-file route yang:
 
-- **Define Endpoints:** Each file corresponds to a specific API endpoint.
-- **Specify HTTP Methods:** Indicate which methods (GET, POST, etc.) the endpoint supports.
-- **Set Up Handlers:** Include the functions that process requests and send responses.
+- **Mendefinisikan Endpoint:** Setiap file mewakili endpoint API tertentu.
+- **Menentukan HTTP Method:** Menunjukkan metode (GET, POST, dll.) yang didukung endpoint.
+- **Menyiapkan Handler:** Berisi fungsi yang memproses permintaan dan mengirim respons.
 
-### Content Overview 📚
+### Gambaran Isi 📚
 
-Each route file includes:
+Setiap file route mencakup:
 
-- **HTTP Method:** What type of request the endpoint handles (e.g., GET to retrieve data).
-- **Endpoint Path:** The URL path for the endpoint (e.g., `/users` to manage user data).
-- **Handler Function:** The code that runs when a request hits this endpoint (e.g., querying the database and returning results).
+- **HTTP Method:** Jenis permintaan yang ditangani endpoint (misal: GET untuk mengambil data).
+- **Endpoint Path:** Path URL untuk endpoint (misal: `/users` untuk mengelola data user).
+- **Handler Function:** Kode yang dijalankan saat permintaan masuk ke endpoint ini (misal: query ke database dan mengembalikan hasil).
 
-### Importance 🔑
+### Pentingnya Route 🔑
 
-Routes are crucial for defining how your API works. A well-organized route structure ensures that:
+Route sangat penting untuk mendefinisikan cara kerja API Anda. Struktur route yang baik memastikan bahwa:
 
-- **API is Easy to Maintain:** Clear and consistent routing makes it easier to manage and update.
-- **Scalability:** New features and endpoints can be added without disrupting existing functionality.
-- **Readability:** Helps developers understand and navigate the API more easily.
+- **API Mudah Dipelihara:** Routing yang jelas dan konsisten memudahkan pengelolaan dan pembaruan.
+- **Skalabilitas:** Fitur dan endpoint baru dapat ditambahkan tanpa mengganggu fungsionalitas yang sudah ada.
+- **Mudah Dibaca:** Membantu developer memahami dan menavigasi API dengan lebih mudah.
 
-Explore these route files to see how your API processes requests and handles different operations! 🔍
+Jelajahi file-file route ini untuk melihat bagaimana API Anda memproses permintaan dan menangani berbagai operasi! 🔍

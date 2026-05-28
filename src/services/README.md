@@ -1,22 +1,22 @@
 # Services 📋
 
-## Services - Business Logic Functions 🧠 same With Controller
+## Services - Fungsi Logika Bisnis 🧠 mirip dengan Controller
 
-### Purpose 🎯
+### Tujuan 🎯
 
-This folder contains the business logic functions that handle incoming requests and send responses to the client. These functions form the core of your application’s API, deciding how to process data and interact with other parts of the system.
+Folder ini berisi fungsi-fungsi logika bisnis yang menangani permintaan masuk dan mengirim respons ke client. Fungsi-fungsi ini merupakan inti dari API aplikasi Anda, menentukan bagaimana data diproses dan berinteraksi dengan bagian lain dari sistem.
 
-### Structure 🗂️
+### Struktur 🗂️
 
-- **Each Service folder** corresponds to a specific API endpoint or resource. For example, a file might handle operations related to users, products, or orders.
-- **Functions within each controller** are responsible for:
-  - **Processing requests:** Receiving data from client requests.
-  - **Executing business logic:** Performing operations like querying a database or processing data.
-  - **Sending responses:** Sending the results back to the client in a suitable format (e.g., JSON).
+- **Setiap folder Service** mewakili endpoint atau resource API tertentu. Misalnya, satu file dapat menangani operasi terkait user, produk, atau pesanan.
+- **Fungsi di dalam setiap controller** bertanggung jawab untuk:
+  - **Memproses permintaan:** Menerima data dari permintaan client.
+  - **Menjalankan logika bisnis:** Melakukan operasi seperti query ke database atau memproses data.
+  - **Mengirim respons:** Mengirim hasil kembali ke client dalam format yang sesuai (misal: JSON).
 
-### Example 📦
+### Contoh 📦
 
-- **`userService.js`:** Handles user-related requests such as creating, updating, or deleting users.
-- **`productService.js`:** Manages product-related requests like retrieving product details or updating inventory.
+- **`userService.ts`:** Menangani permintaan terkait user seperti membuat, memperbarui, atau menghapus user.
+- **`productService.ts`:** Mengelola permintaan terkait produk seperti mengambil detail produk atau memperbarui stok.
 
-Feel free to explore and modify the controller files to fit your application’s needs! 🔍
+Silakan eksplorasi dan modifikasi file controller sesuai kebutuhan aplikasi Anda! 🔍

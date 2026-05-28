@@ -1,28 +1,28 @@
-# Configuration Folder 🗂️
+# Folder Konfigurasi 🗂️
 
-This folder contains important configuration files for setting up the backend application.
+Folder ini berisi file-file konfigurasi penting untuk pengaturan aplikasi backend.
 
-## sequelize.js 🔧
+## sequelize.ts 🔧
 
-This file sets up the database configuration for different stages of development. It helps the application connect to the database depending on whether you are working locally, in a staging environment, or in a production environment.
+File ini mengatur konfigurasi database untuk berbagai tahap pengembangan. File ini membantu aplikasi terhubung ke database sesuai dengan lingkungan yang digunakan, baik secara lokal, staging, maupun produksi.
 
-### Environment Variables 🌱
+### Variabel Lingkungan 🌱
 
-To keep sensitive information like database credentials safe, we use environment variables. Before running the application, you need to set these variables in your environment. Here’s what you need to set:
+Untuk menjaga keamanan informasi sensitif seperti kredensial database, kita menggunakan variabel lingkungan (environment variables). Sebelum menjalankan aplikasi, pastikan variabel berikut sudah diatur di lingkungan Anda:
 
-- `DB_USERNAME`: Your PostgreSQL username 🧑‍💻
-- `DB_PASSWORD`: Your PostgreSQL password 🔑
-- `DB_NAME`: The name of your PostgreSQL database 📦
-- `DB_URL`: A connection URL for PostgreSQL used in staging and production environments 🌐
+- `DB_USERNAME`: Username PostgreSQL Anda 🧑‍💻
+- `DB_PASSWORD`: Password PostgreSQL Anda 🔑
+- `DB_NAME`: Nama database PostgreSQL Anda 📦
+- `DB_URL`: URL koneksi PostgreSQL yang digunakan pada lingkungan staging dan produksi 🌐
 
-### Configuration Settings ⚙️
+### Pengaturan Konfigurasi ⚙️
 
-The configuration is divided into three main parts:
+Konfigurasi dibagi menjadi tiga bagian utama:
 
-1. **Development:** Settings for when you're working on your local machine. It uses environment variables to get the database username, password, and name.
+1. **Development:** Pengaturan saat Anda bekerja di komputer lokal. Menggunakan variabel lingkungan untuk mendapatkan username, password, dan nama database.
 
-2. **Staging:** Settings for a testing environment that mimics production. It uses the `DB_URL` environment variable to connect to the database and ensures a secure connection with SSL encryption.
+2. **Staging:** Pengaturan untuk lingkungan pengujian yang menyerupai produksi. Menggunakan variabel `DB_URL` untuk koneksi database dan memastikan koneksi aman dengan enkripsi SSL.
 
-3. **Production:** Settings for the live environment where your application will be used by real users. Like staging, it uses the `DB_URL` variable and SSL encryption for secure connections.
+3. **Production:** Pengaturan untuk lingkungan produksi di mana aplikasi digunakan oleh pengguna sebenarnya. Seperti staging, menggunakan variabel `DB_URL` dan enkripsi SSL untuk koneksi yang aman.
 
-Update these settings and environment variables based on your project needs. 🛠️
+Perbarui pengaturan dan variabel lingkungan ini sesuai kebutuhan proyek Anda. 🛠️

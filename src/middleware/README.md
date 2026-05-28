@@ -1,29 +1,29 @@
 # Middleware 🛠️
 
-## What is Middleware? 🤔
+## Apa itu Middleware? 🤔
 
-Middleware functions are special functions that sit between the client’s request and the server’s response. They perform important tasks such as checking if a user is authorized, validating data, or logging information.
+Middleware adalah fungsi khusus yang berada di antara permintaan (request) dari client dan respons (response) dari server. Middleware menjalankan tugas penting seperti memeriksa otorisasi pengguna, validasi data, atau mencatat log aktivitas.
 
-### Purpose 🎯
+### Tujuan 🎯
 
-This folder contains middleware functions that help handle specific tasks, such as:
+Folder ini berisi fungsi-fungsi middleware yang membantu menangani tugas-tugas spesifik, seperti:
 
-- **Authentication:** Verifying that a user is who they claim to be.
-- **Validation:** Checking that incoming data is correct and secure.
+- **Autentikasi:** Memastikan bahwa pengguna adalah benar sesuai identitasnya.
+- **Validasi:** Memeriksa bahwa data yang masuk sudah benar dan aman.
 
-### Structure 🗂️
+### Struktur 🗂️
 
-The folder contains the following middleware files:
+Folder ini berisi file-file middleware berikut:
 
-- **`admin.js`**: This file checks if a user has admin privileges by verifying their credentials against environment variables 🔑
-- **`captcha.js`**: This file ensures that Google ReCAPTCHA v2 has been completed to prevent bot attacks 🤖
+- **`admin.ts`**: File ini memeriksa apakah pengguna memiliki hak admin dengan memverifikasi kredensial terhadap variabel lingkungan 🔑
+- **`captcha.ts`**: File ini memastikan Google ReCAPTCHA v2 telah diselesaikan untuk mencegah serangan bot 🤖
 
-### How Middleware Works 🔄
+### Cara Kerja Middleware 🔄
 
-Each middleware file exports a function that can be used to:
+Setiap file middleware mengekspor fungsi yang dapat digunakan untuk:
 
-1. **Validate Requests:** Make sure the request meets certain criteria before processing it.
-2. **Authenticate Users:** Check if a user has the right permissions to access certain resources.
-3. **Log Information:** Record details about the request for debugging or monitoring.
+1. **Validasi Permintaan:** Memastikan permintaan memenuhi kriteria tertentu sebelum diproses.
+2. **Autentikasi Pengguna:** Memeriksa apakah pengguna memiliki izin untuk mengakses resource tertentu.
+3. **Mencatat Log:** Merekam detail permintaan untuk debugging atau monitoring.
 
-Explore these middleware functions to see how they can be used to make your application more secure and reliable! 🔍
+Jelajahi fungsi-fungsi middleware ini untuk melihat bagaimana mereka dapat membuat aplikasi Anda lebih aman dan andal! 🔍
